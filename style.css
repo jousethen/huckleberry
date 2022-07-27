@@ -48,13 +48,15 @@ main p {
   background: hsl(0deg, 0%, 100%);
   padding-left: 32px;
   padding-right: 32px;
+  padding-bottom: 16px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
 }
 
 .indented-heading {
   background: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
-  margin-left: -40px;
-  padding: 16px 40px;
+  margin-left: -42px;
+  padding: 16px 42px;
   max-width: fit-content;
 
 }
